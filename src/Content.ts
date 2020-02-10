@@ -35,26 +35,26 @@ export default class Content {
         var age: number = 32; // number variable
         var name: string = "John"; // string variable
         var isUpdated: boolean = true; // Boolean variable
-        let autok: Array<string>; //array						
-        autok = ["Lambo", "Ford", "Chevrolet"];				
-        enum sportcars {									
-            Porsche = 8,									
-            Rx7 = 4,									
-            BMW = 7,								
-            Ferrari = 9									
+        let autok: Array<string>; //array
+        autok = ["Lambo", "Ford", "Chevrolet"];
+        enum sportcars {
+            Porsche = 8,
+            Rx7 = 4,
+            BMW = 7,
+            Ferrari = 9
         }
-        let Kozso: string | number; //union						
-        Kozso = 365;									
-        Kozso = "CBA";								
-        let kiiras: any = "Szia anya!";							
-        kiiras = 25;									
-        function kozsowriter(): void {							
-            res.write("55535553655");							
+        let Kozso: string | number; //union
+        Kozso = 365;
+        Kozso = "CBA";
+        let kiiras: any = "Szia anya!";
+        kiiras = 25;
+        function kozsowriter(): void {
+            res.write("55535553655");
         }
-        let teloszam: void = kozsowriter();						
+        let teloszam: void = kozsowriter();
 
-        let biblia: string = "Jézus";							
-        const biblia2: string = "Krisztus";							
+        let biblia: string = "Jézus";
+        const biblia2: string = "Krisztus";
 
         res.write(` ${age} ${name} ${isUpdated} `);
         res.write(`${autok}`);
