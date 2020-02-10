@@ -32,10 +32,10 @@ export default class Content {
 
         // Kezd a kódolást innen -->
 
-        var age: number = 32; // number variable
-        var name: string = "John"; // string variable
-        var isUpdated: boolean = true; // Boolean variable
-        let autok: Array<string>; //array
+        var idegallapotmero: number = 999; 
+        var kisebbsegiszemely: string = "Alfozno";
+        var csudijo: boolean = true; 
+        let autok: Array<string>; 
         autok = ["Lambo", "Ford", "Chevrolet"];
         enum sportcars {
             Porsche = 8,
@@ -43,7 +43,7 @@ export default class Content {
             BMW = 7,
             Ferrari = 9
         }
-        let Kozso: string | number; //union
+        let Kozso: string | number; 
         Kozso = 365;
         Kozso = "CBA";
         let kiiras: any = "Szia anya!";
@@ -56,7 +56,7 @@ export default class Content {
         let biblia: string = "Jézus";
         const biblia2: string = "Krisztus";
 
-        res.write(` ${age} ${name} ${isUpdated} `);
+        res.write(` ${idegallapotmero} ${kisebbsegiszemely} ${csudijo} `);
         res.write(`${autok}`);
         res.write(`${sportcars.Porsche}, ${sportcars.Rx7}, ${sportcars.BMW}, ${sportcars.Ferrari} `);
         res.write(`${Kozso} ${kiiras} `);
