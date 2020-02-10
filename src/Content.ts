@@ -32,10 +32,10 @@ export default class Content {
 
         // Kezd a kódolást innen -->
 
-        var idegallapotmero: number = 999; 
+        var idegallapotmero: number = 999;
         var kisebbsegiszemely: string = "Alfozno";
-        var csudijo: boolean = true; 
-        let autok: Array<string>; 
+        var csudijo: boolean = true;
+        let autok: Array<string>;
         autok = ["Lambo", "Ford", "Chevrolet"];
         enum sportcars {
             Porsche = 8,
@@ -43,7 +43,7 @@ export default class Content {
             BMW = 7,
             Ferrari = 9
         }
-        let Kozso: string | number; 
+        let Kozso: string | number;
         Kozso = 365;
         Kozso = "CBA";
         let kiiras: any = "Szia anya!";
